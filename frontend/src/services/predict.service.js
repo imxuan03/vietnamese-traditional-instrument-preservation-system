@@ -14,5 +14,10 @@ class PredictService {
         console.log(respone.data);
         return respone;
     }
+    async getOntologyInfor(one_class_name) {
+        const respone = await this.api.get(`/${one_class_name}`);
+        console.log(respone.data);
+        return respone;
+    }
 }
 export default new PredictService();

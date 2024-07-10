@@ -4,7 +4,7 @@
         <div class="formInput">
             <div class="form-box">
                 <form @submit.prevent="uploadImage">
-                    <label for="imageInput">Upload Image: </label>
+                    <label for="imageInput" style="margin-right:5px;"><b>Upload an image here to identify the instrument:</b></label>
                     <input class="input-button" type="file" id="imageInput" @change="onFileChange" />
                     <button class="submit-button" type="submit" :disabled="!selectedFile">Upload</button>
                 </form>
@@ -15,11 +15,13 @@
             <div>
                 <ul>
                     <li v-for="(instrument, index) in instruments" :key="index">
-                        <div class="container3d" v-if="existingModels3d.includes(instrument)">
-                            <Instrument3D :modelPath="'/models/' + instrument + '/' + instrument + '.gltf'" />
+                        <p style="font-size:20px;"><b>{{ index + 1 }}. {{ nhac_cu_dt[instrument] }}</b></p>
+                        <div v-if="existingModels3d.includes(instrument)">
+                            <Instrument3D :one_class_name=instrument
+                                :modelPath="'/models/' + instrument + '/' + instrument + '.gltf'" />
                         </div>
                         <div v-else>
-                            Hiện tại, mô hình {{ instrument }} đang được cập nhật!
+                            Hiện tại, mô hình {{ nhac_cu_dt[instrument] }} đang được cập nhật!
                         </div>
                     </li>
                 </ul>
@@ -43,7 +45,23 @@ export default {
             error: null,
             selectedFile: null,
             modelPaths: [],
-            existingModels3d: ['cong_chieng', 'dan_bau', 'dan_da', 'dan_nguyet', 'dan_tranh', 'dantyba'],
+            existingModels3d: ['cong_chieng', 'dan_bau', 'dan_co', 'dan_da', 'dan_nguyet', 'dan_sen', 'dan_tranh', 'dan_ty_ba', 'guitar', 'trong_quan'],
+            nhac_cu_dt:{
+                'cong_chieng': 'Cồng chiêng',
+                'dan_bau': 'Đàn bầu',
+                'dan_co': 'Đàn cò',
+                'dan_da': 'Đàn đá',
+                'dan_day': 'Đàn đáy',
+                'dan_nguyet': 'Đàn nguyệt',
+                'dan_sen': 'Đàn sến',
+                'dan_t_rung': 'Đàn T\'rưng',
+                'dan_tinh': 'Đàn tính',
+                'dan_tranh': 'Đàn tranh',
+                'dan_ty_ba': 'Đàn tỳ bà',
+                'guitar': 'Guitar',
+                'khen': 'Khèn',
+                'trong_quan': 'Trống quân'
+            }
         };
     },
     methods: {
@@ -76,20 +94,14 @@ export default {
 };
 </script>
 
-<style>
-.container3d {
-    display: flex;
-    flex-direction: column;
-    /* Hiển thị các loại đàn theo hàng dọc */
-    align-items: center;
-}
-
+<style scoped>
 .form-box {
     border: 1px solid #ccc;
-    padding: 16px;
+    padding: 30px;
     border-radius: 8px;
     margin-bottom: 16px;
     background-color: #f9f9f9;
+
 }
 
 .submit-button {
@@ -138,5 +150,27 @@ export default {
 .submit-button:active {
     position: relative;
     top: 1px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.formInput {
+    width: 100%;
+    /* max-width: 800px; */
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
 }
 </style>

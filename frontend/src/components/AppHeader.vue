@@ -6,7 +6,7 @@
             </a>
             <div class="ms-auto navbar-nav">
                 <li class="nav-item"><b>Trang chủ</b></li>
-                <li class="nav-item"><b>Thông tin</b></li>
+                <li class="nav-item"><b>Liên hệ</b></li>
             </div>
         </div>
     </nav>
@@ -38,6 +38,7 @@ export default {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    flex-direction: row;
 }
 
 .navbar-brand {
