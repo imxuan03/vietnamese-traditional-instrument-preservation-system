@@ -379,7 +379,7 @@
         <NamedIndividual IRI="#Thủ_đàn"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Trung_du_miền_núi_phí_Bắc"/>
+        <NamedIndividual IRI="#Trung_du_miền_núi_phía_Bắc"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Trục_đàn"/>
@@ -457,7 +457,7 @@
         <NamedIndividual IRI="#đàn_sến"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#đàn_t.rưng"/>
+        <NamedIndividual IRI="#đàn_t_rưng"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#đàn_tranh"/>
@@ -902,7 +902,7 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#khu_vực"/>
-        <NamedIndividual IRI="#Trung_du_miền_núi_phí_Bắc"/>
+        <NamedIndividual IRI="#Trung_du_miền_núi_phía_Bắc"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#bộ_phận"/>
@@ -1006,7 +1006,7 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#nhạc_cụ"/>
-        <NamedIndividual IRI="#đàn_t.rưng"/>
+        <NamedIndividual IRI="#đàn_t_rưng"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#nhạc_cụ"/>
@@ -1184,7 +1184,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#là_nhạc_cụ_đặc_trưng_ở"/>
         <NamedIndividual IRI="#khèn"/>
-        <NamedIndividual IRI="#Trung_du_miền_núi_phí_Bắc"/>
+        <NamedIndividual IRI="#Trung_du_miền_núi_phía_Bắc"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#được_dùng_rộng_rãi_trong_dân_tộc"/>
@@ -1229,7 +1229,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#là_nhạc_cụ_đặc_trưng_ở"/>
         <NamedIndividual IRI="#trống_quân"/>
-        <NamedIndividual IRI="#Trung_du_miền_núi_phí_Bắc"/>
+        <NamedIndividual IRI="#Trung_du_miền_núi_phía_Bắc"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#là_nhạc_cụ_đặc_trưng_ở"/>
@@ -1280,6 +1280,11 @@
         <ObjectProperty IRI="#là_nhạc_cụ_đặc_trưng_ở"/>
         <NamedIndividual IRI="#đàn_bầu"/>
         <NamedIndividual IRI="#Đông_Nam_Bộ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#là_nhạc_cụ_đặc_trưng_ở"/>
+        <NamedIndividual IRI="#đàn_bầu"/>
+        <NamedIndividual IRI="#Đồng_bằng_sông_Cửu_Long"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#được_dùng_rộng_rãi_trong_dân_tộc"/>
@@ -1420,6 +1425,11 @@
         <ObjectProperty IRI="#là_nhạc_cụ_đặc_trưng_ở"/>
         <NamedIndividual IRI="#đàn_cò"/>
         <NamedIndividual IRI="#Duyên_hải_Nam_Trung_Bộ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#là_nhạc_cụ_đặc_trưng_ở"/>
+        <NamedIndividual IRI="#đàn_cò"/>
+        <NamedIndividual IRI="#Đồng_bằng_sông_Cửu_Long"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#được_dùng_rộng_rãi_trong_dân_tộc"/>
@@ -1773,37 +1783,37 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#có_cấu_tạo_gồm"/>
-        <NamedIndividual IRI="#đàn_t.rưng"/>
+        <NamedIndividual IRI="#đàn_t_rưng"/>
         <NamedIndividual IRI="#các_ống_tre"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#là_nhạc_cụ_đặc_trưng_ở"/>
-        <NamedIndividual IRI="#đàn_t.rưng"/>
+        <NamedIndividual IRI="#đàn_t_rưng"/>
         <NamedIndividual IRI="#Tây_Nguyên"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#được_dùng_rộng_rãi_trong_dân_tộc"/>
-        <NamedIndividual IRI="#đàn_t.rưng"/>
+        <NamedIndividual IRI="#đàn_t_rưng"/>
         <NamedIndividual IRI="#Ba_na"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#được_dùng_rộng_rãi_trong_dân_tộc"/>
-        <NamedIndividual IRI="#đàn_t.rưng"/>
+        <NamedIndividual IRI="#đàn_t_rưng"/>
         <NamedIndividual IRI="#Gia_rai"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#được_sử_dụng_trong"/>
-        <NamedIndividual IRI="#đàn_t.rưng"/>
+        <NamedIndividual IRI="#đàn_t_rưng"/>
         <NamedIndividual IRI="#Hòa_tấu_đàn_t_rưng_1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#được_sử_dụng_trong"/>
-        <NamedIndividual IRI="#đàn_t.rưng"/>
+        <NamedIndividual IRI="#đàn_t_rưng"/>
         <NamedIndividual IRI="#Hòa_tấu_đàn_t_rưng_2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#được_sử_dụng_trong"/>
-        <NamedIndividual IRI="#đàn_t.rưng"/>
+        <NamedIndividual IRI="#đàn_t_rưng"/>
         <NamedIndividual IRI="#Hòa_tấu_đàn_t_rưng_3"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -1989,7 +1999,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#là_nhạc_cụ_đặc_trưng_ở"/>
         <NamedIndividual IRI="#đàn_tính"/>
-        <NamedIndividual IRI="#Trung_du_miền_núi_phí_Bắc"/>
+        <NamedIndividual IRI="#Trung_du_miền_núi_phía_Bắc"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#được_dùng_rộng_rãi_trong_dân_tộc"/>
@@ -2904,7 +2914,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#có_cách_chơi_là"/>
         <NamedIndividual IRI="#cồng_chiêng"/>
-        <Literal xml:lang="vi">Nghệ thuật diễn tấu cồng chiêng thường do một nhóm người thực hiện, mỗi người đánh một chiếc cồng hoặc chiêng. Người chơi dùng dùi gỗ để gõ vào mặt cồng hoặc chiêng, tạo ra âm thanh vang vọng. Kỹ thuật đánh cồng chiêng yêu cầu sự phối hợp nhịp nhàng và tinh tế giữa các thành viên trong nhóm để tạo ra những giai điệu phong phú, có khi mạnh mẽ, có khi êm dịu.</Literal>
+        <Literal xml:lang="vi">Nghệ thuật diễn tấu cồng chiêng thường do một nhóm người thực hiện, mỗi người đánh một chiếc cồng hoặc chiêng. Người chơi dùng dùi gỗ để gõ vào mặt cồng hoặc chiêng, tạo ra âm thanh vang vọng. Kỹ thuật đánh cồng chiêng yêu cầu sự phối hợp nhịp nhàng và tinh tế giữa các thành viên trong nhóm để tạo ra những giai điệu phong phú, có khi mạnh mẽ, có khi êm dịu</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#có_nguồn_gốc"/>
@@ -2929,12 +2939,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#xuất_hiện_ở_Việt_Nam_vào"/>
         <NamedIndividual IRI="#guitar"/>
-        <Literal>đàn guitar đã theo chân các cố đạo Tây Ban Nha du nhập vào Việt Nam từ đầu thế kỷ 19. Nhưng phải đến năm 1920 mới bắt đầu xuất hiện những người Việt Nam chơi guitar.</Literal>
+        <Literal>đàn guitar đã theo chân các cố đạo Tây Ban Nha du nhập vào Việt Nam từ đầu thế kỷ 19. Nhưng phải đến năm 1920 mới bắt đầu xuất hiện những người Việt Nam chơi guitar</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#có_cách_chơi_là"/>
         <NamedIndividual IRI="#khèn"/>
-        <Literal xml:lang="vi">Khi biểu diễn, người chơi khèn thổi vào miệng ống và dùng tay để bịt hoặc mở các lỗ trên thân khèn, tạo ra những giai điệu khác nhau. Âm thanh của khèn trong trẻo, vang vọng và có thể diễn tả nhiều cung bậc cảm xúc, từ vui tươi, phấn khởi đến trầm lắng, suy tư. Kỹ thuật chơi khèn yêu cầu sự khéo léo và luyện tập, vì người chơi phải kiểm soát hơi thở và các ngón tay một cách nhịp nhàng.</Literal>
+        <Literal xml:lang="vi">Khi biểu diễn, người chơi khèn thổi vào miệng ống và dùng tay để bịt hoặc mở các lỗ trên thân khèn, tạo ra những giai điệu khác nhau. Âm thanh của khèn trong trẻo, vang vọng và có thể diễn tả nhiều cung bậc cảm xúc, từ vui tươi, phấn khởi đến trầm lắng, suy tư. Kỹ thuật chơi khèn yêu cầu sự khéo léo và luyện tập, vì người chơi phải kiểm soát hơi thở và các ngón tay một cách nhịp nhàng</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#có_nguồn_gốc"/>
@@ -2944,7 +2954,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#có_cách_chơi_là"/>
         <NamedIndividual IRI="#trống_quân"/>
-        <Literal xml:lang="vi">Khi diễn tấu nghệ nhân dùng que gõ lên sợi dây mây giữ nhịp điệu. Khi hát dứt một câu, người hát lấy que gõ nhịp vào dây, tạo nên một cung âm rung chuyễn truyền qua cọc xuống chiếc thùng gỗ xuyên xuống hố đất bên dưới. Không khí chứa trong hố đất bên dưới dao động, phát ra âm thanh cộng hưởng thùng, thình vang động rất xa.</Literal>
+        <Literal xml:lang="vi">Khi diễn tấu nghệ nhân dùng que gõ lên sợi dây mây giữ nhịp điệu. Khi hát dứt một câu, người hát lấy que gõ nhịp vào dây, tạo nên một cung âm rung chuyễn truyền qua cọc xuống chiếc thùng gỗ xuyên xuống hố đất bên dưới. Không khí chứa trong hố đất bên dưới dao động, phát ra âm thanh cộng hưởng thùng, thình vang động rất xa</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#có_nguồn_gốc"/>
@@ -2959,7 +2969,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#xuất_hiện_ở_Việt_Nam_vào"/>
         <NamedIndividual IRI="#trống_quân"/>
-        <Literal>trống quân xuất hiện vào đời nhà Trần, thời chống quân Nguyên, binh sỹ khi giải trí ngồi thành hai hàng đối nhau, một bên là &quot;hát xướng,&quot; một bên là &quot;hát đáp,&quot; khi hát gõ vào tang trống để làm nhịp.</Literal>
+        <Literal>trống quân xuất hiện vào đời nhà Trần, thời chống quân Nguyên, binh sỹ khi giải trí ngồi thành hai hàng đối nhau, một bên là &quot;hát xướng,&quot; một bên là &quot;hát đáp,&quot; khi hát gõ vào tang trống để làm nhịp</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#có_URL_là"/>
@@ -3068,23 +3078,23 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#có_cách_chơi_là"/>
-        <NamedIndividual IRI="#đàn_t.rưng"/>
-        <Literal xml:lang="vi">Kỹ thuật diễn tấu nhạc cụ này khá đơn giản, nghệ nhân dùng dùi (bằng tre hoặc gỗ) gõ vào ống để tạo ra âm thanh. Người chơi có thể đánh ngón vê, ngón á giống như chơi đàn tam thập lục, gõ nhanh chậm đều tốt. Đàn T&apos;rưng cũng có thể đánh chồng âm hoặc đồng âm với hai nốt cách nhau 1 quãng tám.</Literal>
+        <NamedIndividual IRI="#đàn_t_rưng"/>
+        <Literal xml:lang="vi">Kỹ thuật diễn tấu nhạc cụ này khá đơn giản, nghệ nhân dùng dùi (bằng tre hoặc gỗ) gõ vào ống để tạo ra âm thanh. Người chơi có thể đánh ngón vê, ngón á giống như chơi đàn tam thập lục, gõ nhanh chậm đều tốt. Đàn T&apos;rưng cũng có thể đánh chồng âm hoặc đồng âm với hai nốt cách nhau 1 quãng tám</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#có_nguồn_gốc"/>
-        <NamedIndividual IRI="#đàn_t.rưng"/>
+        <NamedIndividual IRI="#đàn_t_rưng"/>
         <Literal>dân tộc Gia Rai</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#xuất_hiện_ở_Việt_Nam_vào"/>
-        <NamedIndividual IRI="#đàn_t.rưng"/>
-        <Literal>ước tính rằng loại đàn này đã xuất hiện từ khoảng 1000 năm trước.</Literal>
+        <NamedIndividual IRI="#đàn_t_rưng"/>
+        <Literal>ước tính rằng loại đàn này đã xuất hiện từ khoảng 1000 năm trước</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#có_cách_chơi_là"/>
         <NamedIndividual IRI="#đàn_tranh"/>
-        <Literal xml:lang="vi">người chơi đàn tranh thường ngồi trên sàn hoặc trên ghế thấp, đặt đàn lên đùi hoặc một giá đỡ. Người chơi dùng ngón tay hoặc móng tay để gảy dây, tạo ra âm thanh. Các ngón tay phải thực hiện kỹ thuật gảy dây, trong khi ngón tay trái ấn hoặc kéo dây trên mặt đàn để tạo ra các hiệu ứng rung, uốn, và vuốt.</Literal>
+        <Literal xml:lang="vi">người chơi đàn tranh thường ngồi trên sàn hoặc trên ghế thấp, đặt đàn lên đùi hoặc một giá đỡ. Người chơi dùng ngón tay hoặc móng tay để gảy dây, tạo ra âm thanh. Các ngón tay phải thực hiện kỹ thuật gảy dây, trong khi ngón tay trái ấn hoặc kéo dây trên mặt đàn để tạo ra các hiệu ứng rung, uốn, và vuốt</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#có_nguồn_gốc"/>
@@ -3104,7 +3114,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#có_cách_chơi_là"/>
         <NamedIndividual IRI="#đàn_tính"/>
-        <Literal xml:lang="vi">Theo cách đánh đàn xưa, người diễn không dùng que khảy mà chỉ khảy bằng ngón tay trỏ của tay phải. Ngón cái và giữa giữ cần đàn ở nơi gần sát bầu đàn. Ngón trỏ khảy xuống và hất lên luân phiên khi chơi giai điệu nhanh. Còn nếu giai điệu chậm thì ngón trỏ chỉ khảy xuống. Kỹ thuật tay phải gồm có ngón vê, ngón phi và đánh âm nền… Riêng về tay trái gồm có các thế bấm như ngón rung, ngón vuốt, ngón vê, ngón phi, ngón luyến và âm bội.</Literal>
+        <Literal xml:lang="vi">Theo cách đánh đàn xưa, người diễn không dùng que khảy mà chỉ khảy bằng ngón tay trỏ của tay phải. Ngón cái và giữa giữ cần đàn ở nơi gần sát bầu đàn. Ngón trỏ khảy xuống và hất lên luân phiên khi chơi giai điệu nhanh. Còn nếu giai điệu chậm thì ngón trỏ chỉ khảy xuống. Kỹ thuật tay phải gồm có ngón vê, ngón phi và đánh âm nền… Riêng về tay trái gồm có các thế bấm như ngón rung, ngón vuốt, ngón vê, ngón phi, ngón luyến và âm bội</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#có_nguồn_gốc"/>
@@ -3119,7 +3129,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#có_cách_chơi_là"/>
         <NamedIndividual IRI="#đàn_tỳ_bà"/>
-        <Literal xml:lang="vi">Tư thế đàn: có hai tư thế ngồi đó là ngồi thấp, xếp chân trên chiếu hoặc ngồi cao, thẳng trên ghế, đàn được đặt gần như thẳng đứng. Kỹ thuật tay phải: Tay phải gảy đàn, cách sử dụng móng tay để đàn. Kỹ thuật tay trái: Kỹ thuật tay trái của đàn tỳ bà có các ngón nhấn, ngón vuốt, bấm hợp âm.</Literal>
+        <Literal xml:lang="vi">Tư thế đàn: có hai tư thế ngồi đó là ngồi thấp, xếp chân trên chiếu hoặc ngồi cao, thẳng trên ghế, đàn được đặt gần như thẳng đứng. Kỹ thuật tay phải: Tay phải gảy đàn, cách sử dụng móng tay để đàn. Kỹ thuật tay trái: Kỹ thuật tay trái của đàn tỳ bà có các ngón nhấn, ngón vuốt, bấm hợp âm</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#có_nguồn_gốc"/>
@@ -3134,12 +3144,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#xuất_hiện_ở_Việt_Nam_vào"/>
         <NamedIndividual IRI="#đàn_tỳ_bà"/>
-        <Literal>Đàn Tỳ bà du nhập sang Việt Nam từ trước thời nhà Trần.</Literal>
+        <Literal>Đàn Tỳ bà du nhập sang Việt Nam từ trước thời nhà Trần</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#có_cách_chơi_là"/>
         <NamedIndividual IRI="#đàn_đá"/>
-        <Literal xml:lang="vi">Có nhiều cách biểu diễn đàn đá: Người M’Nông buộc dây ở hai đầu thanh đá thành chuỗi dài, người đối diện dùng gùi gõ vào. Người Mạ thì lại ngồi duỗi hai chân, đặt thanh đá lên đùi. Mỗi người đánh một âm, tập thể thành bộ đàn cũng như cồng chiêng vậy; có thể đánh giai điệu hoặc nhiều âm hòa vào nhau cùng lúc. Nhưng cách chơi đàn hiện nay phổ biến nhất, tiện lợi cho việc trình diễn, đảm bảo yếu tố thẩm mỹ chính là việc sắp xếp đàn đá trên một mặt phẳng.</Literal>
+        <Literal xml:lang="vi">Có nhiều cách biểu diễn đàn đá: Người M’Nông buộc dây ở hai đầu thanh đá thành chuỗi dài, người đối diện dùng gùi gõ vào. Người Mạ thì lại ngồi duỗi hai chân, đặt thanh đá lên đùi. Mỗi người đánh một âm, tập thể thành bộ đàn cũng như cồng chiêng vậy; có thể đánh giai điệu hoặc nhiều âm hòa vào nhau cùng lúc. Nhưng cách chơi đàn hiện nay phổ biến nhất, tiện lợi cho việc trình diễn, đảm bảo yếu tố thẩm mỹ chính là việc sắp xếp đàn đá trên một mặt phẳng</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#có_nguồn_gốc"/>
@@ -3154,7 +3164,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#có_cách_chơi_là"/>
         <NamedIndividual IRI="#đàn_đáy"/>
-        <Literal xml:lang="vi">Người biểu diễn thường dùng đàn đáy đệm cho giọng nữ cao hoặc phối hợp với những nhạc cụ gõ có âm thanh khô (ít vang).</Literal>
+        <Literal xml:lang="vi">Người biểu diễn thường dùng đàn đáy đệm cho giọng nữ cao hoặc phối hợp với những nhạc cụ gõ có âm thanh khô (ít vang)</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#có_nguồn_gốc"/>
@@ -3169,7 +3179,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#xuất_hiện_ở_Việt_Nam_vào"/>
         <NamedIndividual IRI="#đàn_đáy"/>
-        <Literal>phổ biến trong dân gian vào thời nhà Mạc. Thời điểm xuất hiện của Đàn Đáy theo đó được các nhà nghiên cứu nghi nhận sớm nhất là thế kỷ 15.</Literal>
+        <Literal>phổ biến trong dân gian vào thời nhà Mạc. Thời điểm xuất hiện của Đàn Đáy theo đó được các nhà nghiên cứu nghi nhận sớm nhất là thế kỷ 15</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#có_URL_là"/>

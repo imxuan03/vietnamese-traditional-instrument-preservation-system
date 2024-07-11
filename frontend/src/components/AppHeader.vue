@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="navbar-brand-container d-flex justify-content-between w-100 container">
             <a href="/" class="navbar-brand">
-                Logo
+                <img src="/logo.png" alt="" class="logo">
             </a>
             <div class="ms-auto navbar-nav">
                 <li class="nav-item"><b>Trang chủ</b></li>
@@ -22,6 +22,12 @@ export default {
 </script>
 
 <style scoped>
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
 .navbar {
     background-color: #fff;
     height: 80px;

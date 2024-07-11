@@ -9,19 +9,37 @@
 			"name":"Scene",
 			"nodes":[
 				0,
-				2
+				1,
+				2,
+				4
 			]
 		}
 	],
 	"nodes":[
 		{
-			"name":"Lamp.001"
+			"name":"Lamp.001",
+			"scale":[
+				3.5956246852874756,
+				3.5956246852874756,
+				3.5956246852874756
+			]
+		},
+		{
+			"name":"Node_4",
+			"scale":[
+				3.5956246852874756,
+				3.5956246852874756,
+				3.5956246852874756
+			]
+		},
+		{
+			"name":"Lamp.002"
 		},
 		{
 			"mesh":0,
 			"name":"object_0",
 			"rotation":[
-				-0.43427950143814087,
+				-0.43427953124046326,
 				-0.5653889179229736,
 				-0.5085623860359192,
 				0.4828053414821625
@@ -34,14 +52,14 @@
 		},
 		{
 			"children":[
-				1
+				3
 			],
-			"name":"Node_4"
+			"name":"Node_4.001"
 		}
 	],
 	"materials":[
 		{
-			"name":"object_0.002",
+			"name":"object_0.001",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
@@ -151,7 +169,7 @@
 	"buffers":[
 		{
 			"byteLength":5982768,
-			"uri":"dan_bau.bin"
+			"uri":"dan_co.bin"
 		}
 	]
 }

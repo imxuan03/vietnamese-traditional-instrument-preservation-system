@@ -132,10 +132,10 @@ class OntologyInfoView(APIView):
                 nghethuat = set()
                 for value in prop[values]:
                     video_info.append(value.name)
-                    # str = onto.get_parents_of(value)[0].name
-                    str = value.name
+                    str = onto.get_parents_of(value)[0].name
                     nghethuat.add(str)
                 S = ', '.join(nghethuat)
+                S = S.replace('_',' ')
                 dict_onto_info[self.thuoctinh[prop.python_name]] = S
             elif prop.python_name == "có_cấu_tạo_gồm":
                 cautao = set()
@@ -144,7 +144,24 @@ class OntologyInfoView(APIView):
                     str = value.name
                     cautao.add(str)
                 S = ', '.join(cautao)
+                S = S.replace('_',' ')
                 dict_onto_info[self.thuoctinh[prop.python_name]] = S
+            elif prop.python_name == 'được_dùng_rộng_rãi_trong_dân_tộc':
+                dantoc = set()
+                for value in prop[values]:
+                    str = value.name
+                    dantoc.add(str)
+                S = ', '.join(dantoc)
+                S = S.replace('_',' ')
+                dict_onto_info[self.thuoctinh[prop.python_name]]= S
+            elif prop.python_name == 'là_nhạc_cụ_đặc_trưng_ở':
+                khuvuc = set()
+                for value in prop[values]:
+                    str = value.name
+                    khuvuc.add(str)
+                S = ', '.join(khuvuc)
+                S = S.replace('_',' ')
+                dict_onto_info[self.thuoctinh[prop.python_name]]= S
             else:
                 for value in prop[values]:
                     try:
@@ -168,3 +185,4 @@ class OntologyInfoView(APIView):
             list_dict_video_out.append(dictionary)
 
         return Response({'ontology_info': dict_onto_info, 'videos': list_dict_video_out}, status=status.HTTP_200_OK)
+    
