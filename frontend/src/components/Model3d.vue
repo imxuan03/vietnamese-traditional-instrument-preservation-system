@@ -55,10 +55,10 @@ export default {
             return `https://www.youtube.com/embed/${videoId}`;
         },
         filteredVideo(video) {
-      // Loại bỏ thuộc tính "Có URL là " khỏi đối tượng video
-      const { "Có URL là ": _, ...filtered } = video;
-      return filtered;
-    },
+            // Loại bỏ thuộc tính "Có URL là " khỏi đối tượng video
+            const { "Có URL là ": _, ...filtered } = video;
+            return filtered;
+        },
         initScene() {
             const scene = new THREE.Scene();
             const camera = new THREE.PerspectiveCamera(
@@ -79,7 +79,7 @@ export default {
             controls.enableDamping = true;
             controls.dampingFactor = 0.25;
             controls.screenSpacePanning = false;
-            controls.minDistance = 2;
+            controls.minDistance = 5;
             controls.maxDistance = 10;
             controls.maxPolarAngle = Math.PI / 2;
 
@@ -110,6 +110,22 @@ export default {
             topLight.position.set(500, 500, 500); // top-left-ish
             topLight.castShadow = true;
             scene.add(topLight);
+
+            const light1 = new THREE.DirectionalLight(0xffffff, 2);
+            light1.position.set(-200, 300, 200);
+            scene.add(light1);
+
+            const light2 = new THREE.DirectionalLight(0xffffff, 2);
+            light2.position.set(200, -300, -200);
+            scene.add(light2);
+
+            const light3 = new THREE.DirectionalLight(0xffffff, 2);
+            light3.position.set(-200, -300, 200);
+            scene.add(light3);
+
+            const light4 = new THREE.DirectionalLight(0xffffff, 2);
+            light4.position.set(200, 300, -200);
+            scene.add(light4);
 
             const ambientLight = new THREE.AmbientLight(0x333333, 1);
             scene.add(ambientLight);
@@ -208,10 +224,10 @@ export default {
     border-radius: 4px;
 }
 
-.video-container{
+.video-container {
     display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: 10px;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
 }
 </style>
