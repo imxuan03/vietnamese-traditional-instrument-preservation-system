@@ -68,5 +68,5 @@ ViTIP Demo
 
 ## Authors
 
-- [@octokatherine](https://www.github.com/octokatherine)
+- [@imxuan03](https://github.com/imxuan03)
 
