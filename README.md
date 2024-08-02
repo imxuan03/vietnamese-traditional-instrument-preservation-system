@@ -60,6 +60,10 @@ The ViTIP project uses artificial intelligence to preserve Vietnam's traditional
 
 ViTIP framework
 
+<img width="100%" alt="framework" src="https://github.com/user-attachments/assets/ca3ca6d1-8caa-4625-91a6-fe4c939a425b">
+
+ViTIP Demo
+
 <img src="https://github.com/user-attachments/assets/0e0376be-a919-4482-8716-3603228f992f" alt="..." width="100%" height="auto" />
 
 ## Authors
