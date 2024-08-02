@@ -69,4 +69,7 @@ ViTIP Demo
 ## Authors
 
 - [@imxuan03](https://github.com/imxuan03)
+- and more
+-
+-
 
