@@ -87,6 +87,7 @@ We welcome contributions from the community. To contribute:
 4. Submit a pull request.
 
 ## Authors
+- [@truongthanhma](https://github.com/truongthanhma)
 - [@hieu10-06](https://github.com/hieu10-06)
 - [@Michael-Ngn](https://github.com/Michael-Ngn)
 - [@imxuan03](https://github.com/imxuan03)
