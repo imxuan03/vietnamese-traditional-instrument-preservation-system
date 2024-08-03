@@ -3,6 +3,18 @@
 
 The ViTIP project uses artificial intelligence to preserve Vietnam's traditional musical instruments. It detects and classifies instruments using image data, provides 3D visualizations, and enriches contextual information with a lightweight ontology. This project is for cultural heritage professionals, researchers, and the general public interested in preserving and learning about Vietnam’s cultural heritage.
 
+## Table of Contents
+
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [Authors](#authors)
+- [Contact](#contact)
+
+
 ## Features
 
 - **Object Detection and Localization**: Using YOLO to detect and localize musical instruments in images.
@@ -36,11 +48,7 @@ The ViTIP project uses artificial intelligence to preserve Vietnam's traditional
    cd ViTIP
 2. Install the required Python packages:
    ```bash
-   pip install Django djangorestframework ultralytics
-   owlready2
-   opencv-python-headless
-   numpy
-   tensorflow
+   pip install Django djangorestframework ultralytics owlready2 opencv-python-headless numpy tensorflow
 3. Set up Django:
    ```bash
    python manage.py migrate
@@ -53,7 +61,11 @@ The ViTIP project uses artificial intelligence to preserve Vietnam's traditional
 
 
 
-
+## Usage
+1. Object Detection: Upload images to detect and localize instruments.
+2. Classification: Classify detected instruments using the trained model.
+3. 3D Visualization: Explore detailed 3D models of each instrument.
+4. Ontology Information: View enriched contextual information about each instrument.
 
 
 ## Screenshots
@@ -66,10 +78,19 @@ ViTIP Demo
 
 <img src="https://github.com/user-attachments/assets/0e0376be-a919-4482-8716-3603228f992f" alt="..." width="100%" height="auto" />
 
-## Authors
+##  Contributing
+We welcome contributions from the community. To contribute:
 
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes.
+4. Submit a pull request.
+
+## Authors
+- [@hieu10-06](https://github.com/hieu10-06)
+- [@Michael-Ngn](https://github.com/Michael-Ngn)
 - [@imxuan03](https://github.com/imxuan03)
-- and more
--
--
+
+## Contact
+For any questions or suggestions, please contact mtthanh@ctu.edu.vn.
 
