@@ -15,7 +15,7 @@ The ViTIP project uses artificial intelligence to preserve Vietnam's traditional
 - [Contact](#contact)
 
 ## Dataset
-The ViTIP dataset is publicly listed on Roboflow Universe: [click here!] (https://universe.roboflow.com/hieu10nguyen06/nhac-cu-dan-toc-viet-nam)
+The ViTIP dataset is publicly listed on Roboflow Universe: [click here!](https://universe.roboflow.com/hieu10nguyen06/nhac-cu-dan-toc-viet-nam)
 
 ## Features
 
