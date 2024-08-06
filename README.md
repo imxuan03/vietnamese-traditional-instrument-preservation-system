@@ -4,7 +4,7 @@
 The ViTIP project uses artificial intelligence to preserve Vietnam's traditional musical instruments. It detects and classifies instruments using image data, provides 3D visualizations, and enriches contextual information with a lightweight ontology. This project is for cultural heritage professionals, researchers, and the general public interested in preserving and learning about Vietnam’s cultural heritage.
 
 ## Table of Contents
-
+- [Dataset](#dataset)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
@@ -14,6 +14,9 @@ The ViTIP project uses artificial intelligence to preserve Vietnam's traditional
 - [Authors](#authors)
 - [Contact](#contact)
 
+## Dataset
+The ViTIP dataset is publicly listed on Roboflow Universe.
+https://universe.roboflow.com/hieu10nguyen06/nhan-dang-nhac-cu-don-ca-tai-tu
 
 ## Features
 
