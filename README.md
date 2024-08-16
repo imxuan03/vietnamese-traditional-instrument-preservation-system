@@ -56,6 +56,7 @@ The ViTIP dataset is publicly listed on Roboflow Universe: [click here!](https:/
 ### 3. Set up Django:
    ```bash
    cd instrument
+   pip install -r requirements.txt
    python manage.py migrate
    python manage.py runserver
    ```
