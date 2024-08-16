@@ -71,10 +71,12 @@ This template should help get you started developing with Vue 3 in Vite.
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-#### Project Setup
 
-```sh
+#### Set up front-end:
+Include Three.js, OrbitControls, and GLTFLoader in your project. Install Vue.js using npm:
+```bash
 cd ..
+npm install vue
 cd frontend
 npm install
 ```
@@ -90,12 +92,11 @@ npm run dev
 ```sh
 npm run build
 ```
-### 5. Set up front-end:
-   Include Three.js, OrbitControls, and GLTFLoader in your project. Install Vue.js using npm:
-   ```bash
-   npm install vue
+#### To see your built project in the browser, use the commando:
+```sh
+npm run preview
 ```
-### 6. Access the web platform (at http://localhost:3001/).
+### 5. Access the web platform (at http://localhost:3001/).
 
 
 
