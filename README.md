@@ -47,7 +47,7 @@ The ViTIP dataset is publicly listed on Roboflow Universe: [click here!](https:/
 ### 1. Clone the repository:
    ```bash
    git clone https://github.com/imxuan03/vietnamese-traditional-instrument-preservation-system.git
-   cd ViTIP
+   cd vietnamese-traditional-instrument-preservation-system
    ```
 ### 2. Install the required Python packages:
    ```bash
