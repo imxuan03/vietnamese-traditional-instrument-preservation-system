@@ -44,22 +44,58 @@ The ViTIP dataset is publicly listed on Roboflow Universe: [click here!](https:/
 
 ## Installation
 
-1. Clone the repository:
+### 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/ViTIP.git
    cd ViTIP
-2. Install the required Python packages:
+   ```
+### 2. Install the required Python packages:
    ```bash
    pip install Django djangorestframework ultralytics owlready2 opencv-python-headless numpy tensorflow
-3. Set up Django:
+   ```
+### 3. Set up Django:
    ```bash
+   cd instrument
    python manage.py migrate
    python manage.py runserver
-4. Set up front-end:
+   ```
+### 4. Frontend
+
+This template should help get you started developing with Vue 3 in Vite.
+
+#### Recommended IDE Setup
+
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+#### Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+#### Project Setup
+
+```sh
+cd ..
+cd frontend
+npm install
+```
+
+#### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
+### 5. Set up front-end:
    Include Three.js, OrbitControls, and GLTFLoader in your project. Install Vue.js using npm:
    ```bash
    npm install vue
-5. Access the web platform at http://localhost:3001/.
+```
+### 6. Access the web platform (at http://localhost:3001/).
 
 
 
