@@ -128,7 +128,7 @@ We welcome contributions from the community. To contribute:
 
 ## Authors
 - [@truongthanhma](https://github.com/truongthanhma)
-- [NT-Hieu203](https://github.com/NT-Hieu203)
+- [@NT-Hieu203](https://github.com/NT-Hieu203)
 - [@Michael-Ngn](https://github.com/Michael-Ngn)
 - [@imxuan03](https://github.com/imxuan03)
 
