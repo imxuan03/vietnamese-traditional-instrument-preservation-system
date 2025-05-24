@@ -44,22 +44,60 @@ The ViTIP dataset is publicly listed on Roboflow Universe: [click here!](https:/
 
 ## Installation
 
-1. Clone the repository:
+### 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ViTIP.git
-   cd ViTIP
-2. Install the required Python packages:
+   git clone https://github.com/imxuan03/vietnamese-traditional-instrument-preservation-system.git
+   cd vietnamese-traditional-instrument-preservation-system
+   ```
+### 2. Install the required Python packages:
    ```bash
    pip install Django djangorestframework ultralytics owlready2 opencv-python-headless numpy tensorflow
-3. Set up Django:
+   ```
+### 3. Set up Django:
    ```bash
+   cd instrument
+   pip install -r requirements.txt
    python manage.py migrate
    python manage.py runserver
-4. Set up front-end:
-   Include Three.js, OrbitControls, and GLTFLoader in your project. Install Vue.js using npm:
-   ```bash
-   npm install vue
-5. Access the web platform at http://localhost:3001/.
+   ```
+### 4. Frontend
+
+This template should help get you started developing with Vue 3 in Vite.
+
+#### Recommended IDE Setup
+
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+#### Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+
+#### Set up front-end:
+Include Three.js, OrbitControls, and GLTFLoader in your project. Install Vue.js using npm:
+```bash
+cd ..
+npm install vue
+cd frontend
+npm install
+```
+
+#### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
+#### To see your built project in the browser, use the commando:
+```sh
+npm run preview
+```
+### 5. Access the web platform (at http://localhost:3001/).
 
 
 
@@ -90,7 +128,7 @@ We welcome contributions from the community. To contribute:
 
 ## Authors
 - [@truongthanhma](https://github.com/truongthanhma)
-- [@hieu10-06](https://github.com/hieu10-06)
+- [@NT-Hieu203](https://github.com/NT-Hieu203)
 - [@Michael-Ngn](https://github.com/Michael-Ngn)
 - [@imxuan03](https://github.com/imxuan03)
 

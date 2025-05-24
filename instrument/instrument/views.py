@@ -42,7 +42,7 @@ class ImageDetectAPI(APIView):
         return Response({'output': output, "cl_o": cl_out})
 
     def detect_img(self, path_img):
-        model = YOLO("E:/Báo Cáo Khoa Học/CODE/instrument/model/model_yolo/best.pt")
+        model = YOLO("./model/model_yolo/best.pt")
         img_input = cv2.imread(path_img)
         rs = model.predict(source=img_input)
         rs = rs[0]
@@ -70,7 +70,7 @@ class ImageDetectAPI(APIView):
 
     def predict_lenet(self, image):
         categories = ['cong_chieng', 'dan_bau', 'dan_co', 'dan_da', 'dan_day', 'dan_nguyet', 'dan_sen', 'dan_t_rung', 'dan_tinh', 'dan_tranh', 'dan_ty_ba', 'guitar', 'khen', 'trong_quan']
-        model_lenet = tf.keras.models.load_model("E:/Báo Cáo Khoa Học/CODE/instrument/model/model_lenet/lenet_model30.h5")
+        model_lenet = tf.keras.models.load_model("./model/model_lenet/lenet_model30.h5")
         model_lenet.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])  # Compile the model
         img_input = cv2.resize(image, dsize=(64, 64))
         img_array = np.array(img_input)
@@ -116,7 +116,7 @@ class OntologyInfoView(APIView):
     }
 
     def get(self, request, one_class_name):
-        onto = get_ontology("E:/Báo Cáo Khoa Học/CODE/instrument/model/ontology/nhaccu.owl").load()
+        onto = get_ontology("./model/ontology/nhaccu.owl").load()
         cl_n = self.nhac_cu_dt.get(one_class_name)
 
         if not cl_n:
